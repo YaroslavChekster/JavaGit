@@ -11,9 +11,6 @@ public class Main {
     }
 
     public static int num(int num1, int num2) {
-        for (int i = 0; i < 10; i++) {
-            num1 += num2 * num1 / 10 + num1 *2;
-        }
-        return num1;
+        return (num2 * num1 / 10 + num1 *2) * 10;
     }
 }
